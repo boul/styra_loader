@@ -33,9 +33,3 @@ response = urllib2.urlopen(req, json_output)
 print response
 
 
-        # print attribute.get_dotted()
-        # pprint.pprint(attribute)
-        # # json_output = json.dumps(attribute)
-        #
-        # # print json_output
-        #
