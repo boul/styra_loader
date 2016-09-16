@@ -25,7 +25,7 @@ for node in nodes:
 json_output = json.dumps(d)
 print json_output
 
-req = urllib2.Request('http://localhost:8081/v1/data/ohai')
+req = urllib2.Request('https://styra.boul.nl/v1/data/ohai')
 req.add_header('Content-Type', 'application/json')
 
 response = urllib2.urlopen(req, json_output)
